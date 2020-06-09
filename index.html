@@ -10,16 +10,51 @@
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
   <!--CUSTOM CSS -->
   <link rel="stylesheet" type="text/css" href="styles.css">
+   <!-- Favicons -->
+   <link href="assets/img/favicon.png" rel="icon">
+   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+   <!-- Vendor CSS Files -->
+   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+ 
+   <!-- Template Main CSS File -->
+   <link href="assets/css/style.css" rel="stylesheet">
+
+
 
   <title>Proyecto adopcion mascotas</title>
   
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top">
+<!-- ======= Top Bar ======= -->
+<section id="topbar" class="d-none d-lg-block">
+  <div class="container  d-flex">
+    <div class="contact-info mr-auto">
+      <ul>
+        <li><i class="fas fa-envelope"></i><a href="redayudaanima@example.com">redeayudanimalto@example.com</a></li>
+        <li><i class="fas fa-phone-alt"></i> 310 324 56 78</li>
+        <li><i class="icofont-clock-time icofont-flip-horizontal"></i> </li>
+      </ul>
+    </div>
+    <div class="cta">
+      <a href="#about" class="scrollto">Reportar perdida</a>
+    </div>
+  </div>
+</section>
+
+
+
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="img/logo.png" class="logo-brand" alt="logo"> FUNDACIONES DE ADOPCION
-      </a>
+       <!--<img src="img/logo.png" class="logo-brand" alt="logo">-->    Red de ayuda animales</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
@@ -58,11 +93,61 @@
     </div>
 </nav>
 
-  <section id="hero">
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container" data-aos="fade-in">
+      <h1>Bienvenidos a la red de ayuda de animales del Tolima</h1>
+      <h2>Ayuda a una mascota a conseguir hogar</h2>
+      <div class="d-flex align-items-center">
+        <i class="bx bxs-right-arrow-alt get-started-icon"></i>
+       
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+  <section id="why-us" class="why-us">
     <div class="container">
-      <div class="content-center topmargin-lg">
-        <h1>Bienvenidos adopApp una mascota</h1>
-        <p>Ayuda a una mascota vulnerable o sin hogar</p>
+      <div class="row">
+        <div class="col-xl-4 col-lg-5" data-aos="fade-up">
+          <div class="content">
+            <h3>Qué es la red de ayuda </h3>
+            <p> 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+            </p>
+            <div class="text-center">
+              <a href="#" class="more-btn">Leer más <i class="bx bx-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-8 col-lg-7 d-flex">
+          <div class="icon-boxes d-flex flex-column justify-content-center">
+            <div class="row">
+              <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <i class="fas fa-dog"></i>
+                  <h4>Adopta un Perro</h4>
+                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+              </div>
+              <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <i class="fas fa-cat"></i>
+                  <h4>Adopta un gato</h4>
+                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                </div>
+              </div>
+              <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <i class="fas fa-paw"></i>
+                  <h4>Otras mascotas</h4>
+                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -71,7 +156,6 @@
     <div class="container-fluid">
       <div class="content-center">
         <h2>Trabajamos con la emoción de que <b>todos tengan un hogar</b> </h2>
-        <p>cada ayuda cuenta</p>
       </div>
 
       <div class="row">
