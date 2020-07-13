@@ -406,17 +406,17 @@ img.logo-brand {
 }
 
 .carousel-container {
-	max-width: 800px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
 .control-botton {
-	background-color: #000000;
+	background-color: #ff6b3b;
 	opacity: 2;
 	width: 50px;
 	height: 50px;
 	padding: 10px;
-	border: 1px solid #1a1a1a;
+	border: 1px solid #ffffff;
 	border-radius: 50px;
 	font-size: 20px;
 }
@@ -487,9 +487,10 @@ img.logo-brand {
 }
 .options-area .opt .opt-img{
     width:200px;
-    height:200px;
-    border-radius:60%;
-    
+	height:200px;
+	border-radius:50%;
+	border: 3px solid #ff6b3b
+}   
 .options-area .opt .opt-title{
     font-size: 28px;
     font-weight: 700;
